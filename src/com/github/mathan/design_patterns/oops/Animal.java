@@ -1,9 +1,11 @@
 package com.github.mathan.design_patterns.oops;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int weight;
     private String sound;
+
+    public abstract void getLifeTime();
 
     public String getName() {
         return name;

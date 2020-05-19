@@ -5,4 +5,9 @@ public class Cat extends Animal {
         super();
         setSound("Meow");
     }
+
+    @Override
+    public void getLifeTime() {
+        System.out.println("2-16 years");
+    }
 }
