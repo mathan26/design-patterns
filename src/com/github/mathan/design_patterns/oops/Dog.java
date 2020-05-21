@@ -1,5 +1,7 @@
 package com.github.mathan.design_patterns.oops;
 
+import com.github.mathan.design_patterns.strategy_pattern.CantFly;
+
 public class Dog extends Animal {
     public void digHole(){
         System.out.println("Dug a hole");
@@ -8,6 +10,7 @@ public class Dog extends Animal {
     public  Dog(){
         super();
         setSound("Bark");
+        flyingType =new CantFly();
     }
     public  void changeValue(int someNumber){
         someNumber=15;
