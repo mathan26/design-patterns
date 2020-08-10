@@ -2,8 +2,8 @@ package com.github.mathan.design_patterns.chainofresponsibility;
 
 public class ConcreteHandler1  extends Handler{
 
-    public ConcreteHandler1(Handler sucessor) {
-        super(sucessor);
+    public ConcreteHandler1(Handler successor) {
+        super(successor);
     }
 
     @Override
